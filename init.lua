@@ -84,6 +84,10 @@ I hope you enjoy your Neovim journey,
 P.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
+-- Set wrap mode
+vim.opt.wrap = false
+
+-- no swap files
 vim.opt.swapfile = false
 
 -- Set <space> as the leader key
