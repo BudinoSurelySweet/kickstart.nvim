@@ -1,5 +1,5 @@
 -- import .lua files
-require 'settings'
-require 'keymaps'
-require 'autocommands'
-require 'plugins'
+require 'settings' -- NOTE: settings manager
+require 'keymaps' -- NOTE: keymaps manager
+require 'autocommands' -- NOTE: autocommands manager
+require 'plugins' -- NOTE: plugins manager
