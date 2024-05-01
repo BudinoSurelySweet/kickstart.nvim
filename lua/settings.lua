@@ -1,3 +1,14 @@
+-- Virtcolumn settings
+vim.g.virtcolumn_char = '▕' -- char to display the line
+vim.g.virtcolumn_priority = 10 -- priority of extmark
+
+-- Set the colorcolumn
+vim.opt.colorcolumn = '80'
+
+-- Uncomment to change the color of the colorcolumn
+-- this isn't work cause Lazy is loaded after this and colorscheme override every highlight
+-- vim.cmd 'highlight ColorColumn ctermbg=0 guibg=Yellow'
+
 -- Set wrap mode
 vim.opt.wrap = false
 
