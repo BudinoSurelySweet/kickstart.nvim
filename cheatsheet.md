@@ -1,6 +1,14 @@
 # Keymaps
 
+\<SHIFT-v>gc = uncomment line
+
+## Plugins
+1. [Neo-tree](#Neo-tree)
+2. [CMP](#CMP)
+
 ### Neo-tree
+<ul>
+  <li>ciao</li>
 S = open split
 s = open vertical split
 t = open new tab
@@ -30,3 +38,5 @@ D = fuzzy finder directory
 <C-n> go next completion
 <C-p> go previous completion
 <C-y> to accept the completion
+
+## END
